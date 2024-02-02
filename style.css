@@ -41,7 +41,7 @@ body {
 #navbar {
 	background:var(--container-bg-color);
 	border-bottom:1px solid var(--container-bg-color);
-	position:fixed;
+	position: fixed;
 	top:0;
 	left:0;
 	right:0;
@@ -60,8 +60,31 @@ body {
 }
 .menu-icon {
 	display:none;
-	/* Hidden by default,will be shown in media query */
+	/* Hidden by default, will be shown in media query */
     cursor:pointer;
+}
+
+.nav-container img { /* Logo */
+    max-width: 150px;
+    padding-top: 30px;
+    height: auto; 
+    margin-right: 10px;
+}
+.contact-info {
+    position: absolute;
+    top: 10px;
+    padding-bottom: 20px;
+    right: 10%;
+    font-size: 0.8em;
+    color: #777;
+}
+.announcement {
+    position: absolute;
+    padding-bottom: 20px;
+    top: 10px;
+    left: 20%;
+    font-size: 0.8em;
+    color: #777;
 }
 .brand-name {
 	font-size:1.2em;
@@ -321,6 +344,19 @@ footer {
 	right:10px;
 	top:10px;
 }
+.nav-container img {
+  max-width: 100px; 
+}
+.announcement {
+	display: none;
+}
+
+.contact-info {
+    display: none;
+}
+.brand-name {
+  font-size: 1em;
+ }
 .nav-links {
 	display:none;
 	width:100%;
