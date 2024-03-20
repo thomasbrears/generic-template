@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <!-- Meta Tags (Add more for SEO) -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>
-			ABC Company
-		</title>
+		
+        <title>ABC Company</title>
+        
+        <!-- Styling -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 		<link rel="stylesheet" href="style.css">
-		<script src="script.js" defer>
-		</script>
+        
+        <!-- Java Script file -->
+		<script src="script.js" defer></script>
 	</head>
-	<body class="dark-theme"><!-- default to dark theme -->
+    
+	<body class="dark-theme"> <!-- default to dark theme -->
 		
 		<!-- Scroll to Top Button -->
 		<button id="scroll-to-top" aria-label="Scroll to top" style="display: none;">↑ Top</button>
@@ -19,16 +23,17 @@
 		<!-- Navigation Bar -->
 		<nav id="navbar">
 			<div class="nav-container">
-				<!-- Announcement Channel -->
+				<!-- Announcement Channel (Desktop only)-->
 			    <div class="announcement">
 			        <span class="announcement-text"></span>
 			    </div>
-			    <!-- Contact Information -->
+			    <!-- Contact Information (Desktop only)-->
 			    <div class="contact-info">
 			        <span class="phone-number">Phone: (123) 456-7890</span> | 
 			        <span class="email">Email: info@example.com</span>
 			    </div>
 			    <!-- Logo and Brand Name -->
+                <!-- Logo image line can be removed if not needed -->
 				<a href="https://Company.com/"><img src="img/logo.png" alt="ABC Company"></a>
 				<span class="brand-name">
 					ABC Company
@@ -44,6 +49,7 @@
 					<a href="#about">
 						About
 					</a>
+                    <!-- Dropdown -->
 					<div class="dropdown">
 						<a href="#dropdown" class="dropbtn">
 							Dropdown
@@ -60,6 +66,7 @@
 					<a href="#contact">
 						Contact
 					</a>
+                    <!-- Toggle theme - light/dark -->
 					<button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
 						🌙
 					</button>
@@ -78,18 +85,22 @@
 						ABC Company
 					</span>
 				</h1>
-				<!--<h2>Software Developer</h2>-->
+                <!-- Text/Tagline -->
 				<p class="intro-detail">
-					Detail
+					Aotearoa New Zealand
 				</p>
+                <!-- Featured button -->
 				<a style="margin-top: 10px; margin-left: 0;" href="#contact" class="cta-button btn">
-					Contact us
+					Contact us 
 				</a>
 			</div>
 			
 		</header>
+        
 		<div class="main-content">
-			<!-- About Section -->
+			
+            <!-- About Section -->
+            <!-- This secton can be reused just change the ID for navigation -->
 			<section id="about">
 				<div class="about-container">
 					<div class="typed-out-container">
@@ -103,12 +114,14 @@
 		
             
 			<!-- Contact Section -->
+            <!-- More content boxes / contact methods can be added and it'll auto size to account -->
 			<section id="contact">
 				<div class="typed-out-container">
 					<h2 class="typed-out start">
 						Contact us
 					</h2>
 				</div>
+                
 				<div class="flex-container">
 					<div class="contact-box">
 						<i class="fa fa-envelope icon">
@@ -120,13 +133,14 @@
 							hello@abccompany.com
 						</a>
 					</div>
+                    
 					<div class="contact-box">
 						<i class="fa fa-phone icon">
 						</i>
 						<h3>
 							Phone
 						</h3>
-						<a href="tel:+64211401576" class="btn" target="_blank">
+						<a href="tel:+123456" class="btn" target="_blank">
 							(00) 123 4567
 						</a>
 					</div>
@@ -136,7 +150,7 @@
 						<h3>
 							Fax
 						</h3>
-						<a href="tel:+64211401576" class="btn" target="_blank">
+						<a href="tel:+1234567" class="btn" target="_blank">
 							(00) 123 4567
 						</a>
 					</div>
@@ -144,7 +158,8 @@
 				</div>
 			</section>
 		</div>
-		<br>
+        
+		<Br>
 		<Br>
 		<Br>
 
@@ -160,7 +175,7 @@
 							Short about
 						</p>
 						<div class="social-links">
-							<!-- Social Links -->
+							<!-- Social Links (View icon codes at https://fontawesome.com/icons)-->
 							<a href="http://instagram.com/" target="_blank" rel="noopener noreferrer">
 								<i class="fab fa-instagram">
 								</i>
@@ -180,6 +195,9 @@
 						</div>
 					</div>
 				</div>
+                
+                <!-- Copyright Section -->
+                <!-- JS will auto display the current year -->
 				<div class="footer-copy">
 					<p>&copy;
 						<script>
@@ -188,7 +206,8 @@
 						</script>
 						ABC Company. All rights reserved.
 					</p>
-					<p>Webiste template by <a href="https://thomas.brears.xyz" target="_blank">Thomas Brears</a></p>
+                    
+					<p>Webiste template by <a href="https://thomas.brears.xyz" target="_blank">Thomas Brears</a></p> <!-- MUST RETAIN - DO NOT REMOVE -->
 				</div>
 			</div>
 		</footer>      
