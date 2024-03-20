@@ -1,13 +1,12 @@
 # Generic website template
 
-**https://weburl**
+**https://gentempate.pages.dev/**
 
 Welcome to this generic website template. 
 
 ## Features
 
 - **Coming soon**: Coming Soon
-
 
 ## License
 Copyright 2024 Thomas Brears
